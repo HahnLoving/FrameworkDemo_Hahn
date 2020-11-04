@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FrameworkDemo_Hahn_Example' do
+  pod 'FrameworkDemo_Hahn', :path => '../'
+
+  target 'FrameworkDemo_Hahn_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
